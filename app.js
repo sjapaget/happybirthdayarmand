@@ -1,7 +1,7 @@
 fetch("https://poetrydb.org/random/1")
     .then(response => response.json())
     .then(data => {
-        alert('Happy Birthday Armand!')
+        alert("Happy Birthday Armand! Here's a poem for you.")
         const displayTitle = document.getElementById("poem-title");
         const displayAuthor = document.getElementById("poem-author");
         const displayText = document.getElementById("poem-text");
